@@ -1,8 +1,24 @@
 .name-header{
-
+ margin-top: 20px;
 	text-align: center;
 }
 
-.row h4{
-	color: blue;
+.row h5{
+	color: red;
+}
+p{
+	color: white;
+
+}
+i{
+	color: white;
+}
+h1{
+	color: red;
+}
+.socialprof{
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+	padding: auto;
 }
