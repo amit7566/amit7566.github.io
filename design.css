@@ -50,7 +50,7 @@ body {
 
 .footer {
     bottom: 0;
-    position: fixed;
+    position: relative;
     left: 0;
     width: 100%;
     color: white;
