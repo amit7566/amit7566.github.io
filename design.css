@@ -41,7 +41,7 @@ body {
 }
 .footer span {
     color: white;
-    margin: 0px 0px 1px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 .footer {
@@ -50,8 +50,7 @@ body {
     left: 0;
     width: 100%;
     color: white;
-    padding: 5px;
-    background-color: rgba(128, 128, 128, .1);
+    background-color: rgba(128, 128, 128, .3);
     font-family: serif;
 }
 @media not all and (min-width: 750px) {
@@ -70,14 +69,21 @@ body {
     }
     .footer {
         bottom: 0;
-        position: relative;
+        position: fixed;
         left: 0;
+        margin: 0px;
         width: 100%;
         color: white;
-        padding: 5px;
         
     }
 
 }
+.incomplete-text{
+    font-size: 12px;
+}
 
-
+.socialm i{
+    padding: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; 
+}

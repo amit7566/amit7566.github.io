@@ -5,9 +5,12 @@
 
 .row h5{
 	color: red;
+	text-align: center;
 }
 p{
 	color: white;
+	margin: 0px;
+	padding: 0px;
 
 }
 i{
@@ -21,4 +24,10 @@ h1{
 	text-align: center;
 	margin: auto;
 	padding: auto;
+}
+
+.footer{
+
+	position: relative;
+	width: auto;
 }
