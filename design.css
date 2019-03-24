@@ -5,11 +5,12 @@
     margin: 60px 0px 50px 0px;
     background-color: rgba(128, 128, 128, .1);
     font-family: serif;
+
 }
 
 .nav-list {
     justify-content: center;
-    
+
 }
 
 .custom-navlink {
@@ -29,16 +30,19 @@ body {
     background-image: url("bgtwo.jpg");
     font-family: fantasy;
 }
-.profpic
-{
-    border-radius: 100%;
-    opacity: .8;
-    float: right;
-    top: 0; 
-    left: 0;
-    position: relative;
-    margin:    -180px 0px 0px 0px;
+
+.profpic {
+    border-radius: 50%;
+    opacity: 1;
+    width: 220px;
+    border: 3px solid white;
+    margin-left: 170px;
 }
+
+.prof-div {
+    text-align: center;
+}
+
 .footer span {
     color: white;
     margin: 0px 0px 0px 0px;
@@ -52,13 +56,15 @@ body {
     color: white;
     background-color: rgba(128, 128, 128, .3);
     font-family: serif;
+
 }
+
 @media not all and (min-width: 750px) {
     .navbar-custom {
         text-align: center;
         margin: 10px 0px 0px 0px;
         background-color: rgba(128, 128, 128, .1);
-        padding:10px;
+        padding: 10px;
         font-family: serif;
     }
 
@@ -67,6 +73,7 @@ body {
         padding: 2px;
         font-size: 10px;
     }
+
     .footer {
         bottom: 0;
         position: fixed;
@@ -74,16 +81,25 @@ body {
         margin: 0px;
         width: 100%;
         color: white;
-        
+
+    }
+
+    .prof-div {
+        text-align: center;
+    }
+
+    .profpic {
+        margin-left: 0px;
+        width: 130px;
+        margin-top: 10px; 
     }
 
 }
-.incomplete-text{
+
+.incomplete-text {
     font-size: 12px;
 }
 
-.socialm i{
-    padding: 10px;
-    margin-bottom: 0px;
-    padding-bottom: 0px; 
+.intro{
+    padding: 20px;
 }

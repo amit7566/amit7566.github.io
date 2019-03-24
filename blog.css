@@ -1,0 +1,34 @@
+.blog-body{
+   border-bottom: 1px solid cyan;
+   border-radius: 10px;
+   margin-top: 25px;
+}
+.blog-body .title{
+   color: white;
+   border-bottom: 1px dashed cyan;
+   text-align: center;
+   font-family: serif;
+   border-radius: 1px;
+}
+
+.blog-body .timestamp{
+   color: red;
+   text-align: right;
+   margin: 10px;
+}
+
+.blog-body .text-area
+{
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+   text-align: justify;
+   padding: 0px ;
+
+}
+
+h1{
+   text-align: center;
+   color: red;
+   margin: 10px;
+   font-weight: bold;
+}
